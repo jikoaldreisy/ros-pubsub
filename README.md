@@ -5,15 +5,6 @@ You can run this entirely in **WSL (Ubuntu)** — no hardware required.
 
 ---
 
-## 🧩 Project Overview
-
-The package creates:
-- `publisher` → publishes a `std_msgs/String` message every second  
-- `subscriber` → listens to that message and prints it
-
----
-
-<br>
 <br>
 
 # 🚀 Setup and Build
@@ -42,6 +33,8 @@ colcon build --symlink-install
 ```
 source ./install/setup.bash
 ```
+
+<br>
 
 # 🧠 Run the Example
 
