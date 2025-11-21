@@ -1,22 +1,11 @@
-# ROS 2 C++ Publisher-Subscriber Example
+# ROS 2 C++ Publisher-Subscriber
 
-A simple ROS 2 (Humble) C++ project demonstrating **Publisher** and **Subscriber** nodes.  
+A simple ROS 2 C++ project demonstrating **Publisher** and **Subscriber** nodes.  
 You can run this entirely in **WSL (Ubuntu)** — no hardware required.
 
 ---
 
 ## 🧩 Project Overview
-
-This workspace contains one package:
-
-```
-cpp_pubsub/
-├── src/
-│ ├── publisher.cpp
-│ └── subscriber.cpp
-├── CMakeLists.txt
-└── package.xml
-```
 
 The package creates:
 - `publisher` → publishes a `std_msgs/String` message every second  
@@ -24,17 +13,8 @@ The package creates:
 
 ---
 
-## ⚙️ Requirements
-
-- Ubuntu 22.04 (or WSL)
-- [ROS 2 Humble](https://docs.ros.org/en/humble/Installation.html)
-- `colcon` build tool
-
-Install colcon if missing:
-```bash
-sudo apt install python3-colcon-common-extensions
-```
-
+<br>
+<br>
 
 # 🚀 Setup and Build
 ## 1. Clone the Repository
@@ -42,24 +22,25 @@ sudo apt install python3-colcon-common-extensions
 cd ~
 git clone https://github.com/jikoaldreisy/ros-pubsub.git
 cd ros-pubsub
-
 ```
 
-## 2. Build the Workspace
+
+## 2. Build and Enter Container
+```
+docker compose build
+docker compose up -d
+docker exec -it ros bash
+```
+
+
+## 3. Build the Workspace
 ```
 colcon build --symlink-install
 ```
 
-## 3. Source the Environment
+## 4. Source the Environment
 ```
-source /opt/ros/humble/setup.bash
-source ~/ros-pubsub/install/setup.bash
-```
-
-### (Optional: Add to your ~/.bashrc)
-```
-echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-echo "source ~/ros-pubsub/install/setup.bash" >> ~/.bashrc
+source ./install/setup.bash
 ```
 
 # 🧠 Run the Example

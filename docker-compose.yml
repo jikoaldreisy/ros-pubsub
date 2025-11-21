@@ -1,0 +1,11 @@
+services:
+  robotos:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: ros
+    network_mode: host
+    volumes:
+      - ./app:/mnt/app
+    tty: true
+    stdin_open: true
