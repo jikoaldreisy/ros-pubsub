@@ -36,13 +36,17 @@ RUN apt-get update && apt-get install ros-dev-tools -y
 # 4. Install ROS 2
 # --------------------------------------------------------
 RUN apt-get update && apt-get upgrade \
-    && apt-get install ros-kilted-ros-base -y
+    && apt-get install -y \
+    ros-kilted-ros-base \
+    ros-kilted-example-interfaces
 
 # --------------------------------------------------------
 # 5. Setup environment
 # --------------------------------------------------------
 SHELL ["/bin/bash", "-c"]
-RUN echo "source /opt/ros/kilted/setup.bash" >> ~/.bashrc
+RUN echo "source /opt/ros/kilted/setup.bash" >> ~/.bashrc \
+    && echo "source /usr/share/colcon_cd/function/colcon_cd.sh" >> ~/.bashrc \
+    && echo "export _colcon_cd_root=/mnt/app" >> ~/.bashrc
 
 WORKDIR /mnt/app
 

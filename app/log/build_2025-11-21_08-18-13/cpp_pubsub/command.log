@@ -1,6 +1,0 @@
-Invoking command in '/mnt/app/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake /mnt/app/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/app/install/cpp_pubsub
-Invoked command in '/mnt/app/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake /mnt/app/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/app/install/cpp_pubsub
-Invoking command in '/mnt/app/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake --build /mnt/app/build/cpp_pubsub -- -j8 -l8
-Invoked command in '/mnt/app/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake --build /mnt/app/build/cpp_pubsub -- -j8 -l8
-Invoking command in '/mnt/app/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake --install /mnt/app/build/cpp_pubsub
-Invoked command in '/mnt/app/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake --install /mnt/app/build/cpp_pubsub
