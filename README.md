@@ -33,25 +33,3 @@ colcon build --symlink-install
 ```
 source ./install/setup.bash
 ```
-
-<br>
-
-# 🧠 Run the Example
-
-## Open two terminals (both sourced).
-
-Terminal 1 — Publisher
-```
-ros2 run cpp_pubsub publisher
-```
-
-Terminal 2 — Subscriber
-```
-ros2 run cpp_pubsub subscriber
-```
-
-## Expected output:
-```
-[INFO] [publisher]: Publishing: 'Hello, world! 1'
-[INFO] [subscriber]: I heard: 'Hello, world! 1'
-```
