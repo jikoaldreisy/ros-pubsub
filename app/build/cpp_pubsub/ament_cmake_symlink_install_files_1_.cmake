@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/mnt/app/cpp_pubsub" FILES "/mnt/app/build/cpp_pubsub/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

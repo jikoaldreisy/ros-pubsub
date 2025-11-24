@@ -1,6 +1,6 @@
-build/
-install/
-log/
+./app/build/
+./app/install/
+./app/log/
 *.pyc
 *.swp
 .colcon/

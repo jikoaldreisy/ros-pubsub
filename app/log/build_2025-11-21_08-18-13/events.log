@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000368] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000405] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.008024] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.009033] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/mnt/app/cpp_pubsub', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/mnt/app/install/cpp_pubsub'], 'cwd': '/mnt/app/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'MGKRD10-NA10OG9', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'kilted', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/kilted', 'DEBIAN_FRONTEND': 'noninteractive', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/app/build/cpp_pubsub', 'PYTHONPATH': '/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted'}), 'shell': False}
+[0.060017] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099437] (-) TimerEvent: {}
+[0.105320] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.118451] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.185905] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.192158] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.192393] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.192706] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.199638] (-) TimerEvent: {}
+[0.199903] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.275956] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.282307] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.282629] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.282969] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.284421] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.299730] (-) TimerEvent: {}
+[0.374896] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.399897] (-) TimerEvent: {}
+[0.434732] (cpp_pubsub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.450072] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 29.5.4 (/opt/ros/kilted/share/rclcpp/cmake)\n'}
+[0.470462] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[0.478648] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[0.489064] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500039] (-) TimerEvent: {}
+[0.502069] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.555192] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)\n'}
+[0.556699] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600196] (-) TimerEvent: {}
+[0.618891] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.627497] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.677191] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.5.1 (/opt/ros/kilted/share/std_msgs/cmake)\n'}
+[0.687379] (cpp_pubsub) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[0.687551] (cpp_pubsub) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[0.687594] (cpp_pubsub) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[0.687630] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.687664] (cpp_pubsub) StderrLine: {'line': b'    target_link_libraries(publisher PUBLIC\n'}
+[0.687699] (cpp_pubsub) StderrLine: {'line': b'      ${std_msgs_TARGETS}\n'}
+[0.687730] (cpp_pubsub) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[0.687760] (cpp_pubsub) StderrLine: {'line': b'    )\n'}
+[0.687792] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.687822] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.687852] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:13 (ament_target_dependencies)\n'}
+[0.687881] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.687910] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.688045] (cpp_pubsub) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[0.688111] (cpp_pubsub) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[0.688144] (cpp_pubsub) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[0.688175] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.688206] (cpp_pubsub) StderrLine: {'line': b'    target_link_libraries(subscriber PUBLIC\n'}
+[0.688237] (cpp_pubsub) StderrLine: {'line': b'      ${std_msgs_TARGETS}\n'}
+[0.688290] (cpp_pubsub) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[0.688325] (cpp_pubsub) StderrLine: {'line': b'    )\n'}
+[0.688357] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.688388] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.688425] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:16 (ament_target_dependencies)\n'}
+[0.688455] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.688485] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.700324] (-) TimerEvent: {}
+[0.759588] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.772945] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.776305] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /mnt/app/build/cpp_pubsub\n'}
+[0.782330] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.783551] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.783567] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/app/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/mnt/app/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'MGKRD10-NA10OG9', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'kilted', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/kilted', 'DEBIAN_FRONTEND': 'noninteractive', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/app/build/cpp_pubsub', 'PYTHONPATH': '/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted'}), 'shell': False}
+[0.800538] (-) TimerEvent: {}
+[0.824420] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.825138] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.900725] (-) TimerEvent: {}
+[1.001630] (-) TimerEvent: {}
+[1.102024] (-) TimerEvent: {}
+[1.202435] (-) TimerEvent: {}
+[1.302839] (-) TimerEvent: {}
+[1.403196] (-) TimerEvent: {}
+[1.503559] (-) TimerEvent: {}
+[1.603994] (-) TimerEvent: {}
+[1.704330] (-) TimerEvent: {}
+[1.804711] (-) TimerEvent: {}
+[1.905218] (-) TimerEvent: {}
+[2.005829] (-) TimerEvent: {}
+[2.106407] (-) TimerEvent: {}
+[2.206844] (-) TimerEvent: {}
+[2.307231] (-) TimerEvent: {}
+[2.407689] (-) TimerEvent: {}
+[2.508075] (-) TimerEvent: {}
+[2.608517] (-) TimerEvent: {}
+[2.708828] (-) TimerEvent: {}
+[2.809256] (-) TimerEvent: {}
+[2.909658] (-) TimerEvent: {}
+[3.010362] (-) TimerEvent: {}
+[3.110692] (-) TimerEvent: {}
+[3.211199] (-) TimerEvent: {}
+[3.311550] (-) TimerEvent: {}
+[3.411917] (-) TimerEvent: {}
+[3.512306] (-) TimerEvent: {}
+[3.612668] (-) TimerEvent: {}
+[3.713006] (-) TimerEvent: {}
+[3.813369] (-) TimerEvent: {}
+[3.913781] (-) TimerEvent: {}
+[4.014359] (-) TimerEvent: {}
+[4.114664] (-) TimerEvent: {}
+[4.214948] (-) TimerEvent: {}
+[4.315349] (-) TimerEvent: {}
+[4.415680] (-) TimerEvent: {}
+[4.516033] (-) TimerEvent: {}
+[4.616444] (-) TimerEvent: {}
+[4.716818] (-) TimerEvent: {}
+[4.817188] (-) TimerEvent: {}
+[4.917585] (-) TimerEvent: {}
+[5.016689] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[5.017693] (-) TimerEvent: {}
+[5.117967] (-) TimerEvent: {}
+[5.164962] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target publisher\n'}
+[5.218073] (-) TimerEvent: {}
+[5.318395] (-) TimerEvent: {}
+[5.418679] (-) TimerEvent: {}
+[5.519147] (-) TimerEvent: {}
+[5.619461] (-) TimerEvent: {}
+[5.719836] (-) TimerEvent: {}
+[5.820148] (-) TimerEvent: {}
+[5.920423] (-) TimerEvent: {}
+[6.020792] (-) TimerEvent: {}
+[6.121095] (-) TimerEvent: {}
+[6.221488] (-) TimerEvent: {}
+[6.321899] (-) TimerEvent: {}
+[6.422405] (-) TimerEvent: {}
+[6.522713] (-) TimerEvent: {}
+[6.623122] (-) TimerEvent: {}
+[6.723403] (-) TimerEvent: {}
+[6.823683] (-) TimerEvent: {}
+[6.923994] (-) TimerEvent: {}
+[7.024498] (-) TimerEvent: {}
+[7.124772] (-) TimerEvent: {}
+[7.225215] (-) TimerEvent: {}
+[7.325487] (-) TimerEvent: {}
+[7.425943] (-) TimerEvent: {}
+[7.462649] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[7.526122] (-) TimerEvent: {}
+[7.626499] (-) TimerEvent: {}
+[7.661156] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[7.670879] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.671386] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[7.678481] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/app/build/cpp_pubsub'], 'cwd': '/mnt/app/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'MGKRD10-NA10OG9', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'kilted', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/kilted', 'DEBIAN_FRONTEND': 'noninteractive', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/app/build/cpp_pubsub', 'PYTHONPATH': '/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted'}), 'shell': False}
+[7.684704] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.685000] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.685645] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/lib/cpp_pubsub/publisher\n'}
+[7.692908] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/lib/cpp_pubsub/subscriber\n'}
+[7.700882] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[7.708234] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[7.715905] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[7.724077] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[7.726638] (-) TimerEvent: {}
+[7.732820] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[7.740483] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[7.747745] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[7.754745] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[7.762512] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[7.770086] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[7.777369] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[7.784559] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[7.793491] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[7.800459] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[7.807424] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[7.815413] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.826965] (-) TimerEvent: {}
+[7.829392] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[7.830504] (-) EventReactorShutdown: {}

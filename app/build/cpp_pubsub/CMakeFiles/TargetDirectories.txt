@@ -1,0 +1,11 @@
+/mnt/app/build/cpp_pubsub/CMakeFiles/uninstall.dir
+/mnt/app/build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir
+/mnt/app/build/cpp_pubsub/CMakeFiles/publisher.dir
+/mnt/app/build/cpp_pubsub/CMakeFiles/subscriber.dir
+/mnt/app/build/cpp_pubsub/CMakeFiles/test.dir
+/mnt/app/build/cpp_pubsub/CMakeFiles/edit_cache.dir
+/mnt/app/build/cpp_pubsub/CMakeFiles/rebuild_cache.dir
+/mnt/app/build/cpp_pubsub/CMakeFiles/list_install_components.dir
+/mnt/app/build/cpp_pubsub/CMakeFiles/install.dir
+/mnt/app/build/cpp_pubsub/CMakeFiles/install/local.dir
+/mnt/app/build/cpp_pubsub/CMakeFiles/install/strip.dir

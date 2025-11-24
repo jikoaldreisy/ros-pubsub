@@ -1,0 +1,85 @@
+[0.011s] Invoking command in '/mnt/app/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake /mnt/app/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/app/install/cpp_pubsub
+[0.060s] -- The C compiler identification is GNU 13.3.0
+[0.105s] -- The CXX compiler identification is GNU 13.3.0
+[0.118s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.284s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.375s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.434s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.450s] -- Found rclcpp: 29.5.4 (/opt/ros/kilted/share/rclcpp/cmake)
+[0.470s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[0.478s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[0.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.555s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[0.556s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[0.619s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.627s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.677s] -- Found std_msgs: 5.5.1 (/opt/ros/kilted/share/std_msgs/cmake)
+[0.687s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.687s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.687s]   with modern CMake targets instead.  Try replacing this call with:
+[0.687s] 
+[0.687s]     target_link_libraries(publisher PUBLIC
+[0.687s]       ${std_msgs_TARGETS}
+[0.687s]       rclcpp::rclcpp
+[0.687s]     )
+[0.687s] 
+[0.687s] Call Stack (most recent call first):
+[0.687s]   CMakeLists.txt:13 (ament_target_dependencies)
+[0.687s] 
+[0.688s] [0m
+[0.688s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.688s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.688s]   with modern CMake targets instead.  Try replacing this call with:
+[0.688s] 
+[0.688s]     target_link_libraries(subscriber PUBLIC
+[0.688s]       ${std_msgs_TARGETS}
+[0.688s]       rclcpp::rclcpp
+[0.688s]     )
+[0.688s] 
+[0.688s] Call Stack (most recent call first):
+[0.688s]   CMakeLists.txt:16 (ament_target_dependencies)
+[0.688s] 
+[0.688s] [0m
+[0.759s] -- Configuring done (0.7s)
+[0.773s] -- Generating done (0.0s)
+[0.776s] -- Build files have been written to: /mnt/app/build/cpp_pubsub
+[0.783s] Invoked command in '/mnt/app/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake /mnt/app/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/app/install/cpp_pubsub
+[0.783s] Invoking command in '/mnt/app/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake --build /mnt/app/build/cpp_pubsub -- -j8 -l8
+[0.824s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.825s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[5.016s] [ 75%] [32m[1mLinking CXX executable publisher[0m
+[5.165s] [ 75%] Built target publisher
+[7.462s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[7.661s] [100%] Built target subscriber
+[7.671s] Invoked command in '/mnt/app/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake --build /mnt/app/build/cpp_pubsub -- -j8 -l8
+[7.678s] Invoking command in '/mnt/app/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake --install /mnt/app/build/cpp_pubsub
+[7.684s] -- Install configuration: ""
+[7.685s] -- Execute custom install script
+[7.685s] -- Symlinking: /mnt/app/install/cpp_pubsub/lib/cpp_pubsub/publisher
+[7.693s] -- Symlinking: /mnt/app/install/cpp_pubsub/lib/cpp_pubsub/subscriber
+[7.701s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.708s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.716s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[7.724s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[7.733s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[7.740s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[7.747s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[7.755s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[7.762s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[7.770s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[7.777s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[7.784s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[7.793s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[7.800s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[7.807s] -- Symlinking: /mnt/app/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[7.815s] Invoked command in '/mnt/app/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/kilted /usr/bin/cmake --install /mnt/app/build/cpp_pubsub

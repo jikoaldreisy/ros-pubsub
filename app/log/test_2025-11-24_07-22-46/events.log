@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict({'cpp_pubsub': '/mnt/app/install/cpp_pubsub'})}
+[0.000240] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.040430] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[0.041116] (-) EventReactorShutdown: {}
